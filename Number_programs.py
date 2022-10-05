@@ -246,10 +246,6 @@
 # print(" the factorial is:",factorial(num))        
 
 
-
-
-
-
 #program to print the power of a number without using the pow function
 # base=int(input(" enter the value for base:"))
 # exponent=int(input(" enter the value for exponent:"))
