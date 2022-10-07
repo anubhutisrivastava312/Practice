@@ -37,8 +37,18 @@
 
 
 #program to check whether the given string is palindrome or not
-string=input(" enter the string: ")
-if string==string[::-1]:
-    print(" palindrome!")
+# string=input(" enter the string: ")
+# if string==string[::-1]:
+#     print(" palindrome!")
+# else:
+#     print(" not palindrome!")    
+
+
+
+#program to check whether a given character is a vowel or consonent
+character=input(" enter the character: ")
+list1=['a','i','e','o','u','A','E','I','O','U']
+if character in list1:
+    print("vowel!")
 else:
-    print(" not palindrome!")    
+    print(" consonent!")    
