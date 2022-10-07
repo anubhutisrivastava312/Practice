@@ -73,3 +73,10 @@
 
 
 
+#program to replace the space from a given string and replace it with a character
+def remove_space(str1,str2):
+    print(str1.replace(' ',str2))
+str1=input(" enter the string: ") 
+str2=input(" enter the character with which you want to replace the space: ") 
+remove_space(str1,str2)
+  
