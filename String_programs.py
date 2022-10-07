@@ -74,9 +74,58 @@
 
 
 #program to replace the space from a given string and replace it with a character
-def remove_space(str1,str2):
-    print(str1.replace(' ',str2))
-str1=input(" enter the string: ") 
-str2=input(" enter the character with which you want to replace the space: ") 
-remove_space(str1,str2)
+# def remove_space(str1,str2):
+#     print(str1.replace(' ',str2))
+# str1=input(" enter the string: ") 
+# str2=input(" enter the character with which you want to replace the space: ") 
+# remove_space(str1,str2)
   
+#program to replace all the vowels in the given string with a *
+# str=input("enter the string: ")
+# ch='*'
+# result=''
+# list1=['a','e','i','o','u','A','E','O','U','I']
+# for i in str:
+#     if i in list1:
+#         i=ch
+#     result=result+i
+# print(" the new string: ",result) 
+
+
+
+
+
+#program to convert all the lowercase characters in a given string to uppercase characters
+# str=input(" enter the string: ")
+# result=''
+# for i in str:
+#     if i.islower():
+#         i=i.upper()#upper function to convert all the lowercase chars to uppercase
+#     result=result+i    
+# print(" the new string is: ",result)    
+
+
+#program to convert all the uppercase characters in a given string to lowercase
+# str=input(" enter the string: ")
+# result=''
+# for i in str:
+#     if i.isupper():
+#         i=i.lower()
+#     result=result+i
+# print("the new string is: ",result)        
+
+
+
+#program to delete the vowels from a given string
+# str=input(" enter the string: ")
+# list1=['a','e','i','o','u','A','E','I','O','U']
+# result=''
+# for i in str:
+#     if i in list1:
+#         i=''
+#     result=result+i 
+# print(" the new string: ",result)       
+
+
+
+
