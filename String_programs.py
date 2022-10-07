@@ -21,15 +21,24 @@
 
 
 #program to check whether the given two strings are anagram or not
-def anagram(str1,str2):
-    if sorted(str1)==sorted(str2):
-        return True
-    else:
-        return False
+# def anagram(str1,str2):
+#     if sorted(str1)==sorted(str2):
+#         return True
+#     else:
+#         return False
 
-str1=input(" enter the string1: ")
-str2=input(" enter the string 2: ")   
-if anagram(str1,str2):
-    print("Anagram!")
+# str1=input(" enter the string1: ")
+# str2=input(" enter the string 2: ")   
+# if anagram(str1,str2):
+#     print("Anagram!")
+# else:
+#     print("not anagram!")             
+
+
+
+#program to check whether the given string is palindrome or not
+string=input(" enter the string: ")
+if string==string[::-1]:
+    print(" palindrome!")
 else:
-    print("not anagram!")             
+    print(" not palindrome!")    
