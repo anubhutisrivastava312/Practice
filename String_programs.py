@@ -46,9 +46,30 @@
 
 
 #program to check whether a given character is a vowel or consonent
-character=input(" enter the character: ")
-list1=['a','i','e','o','u','A','E','I','O','U']
-if character in list1:
-    print("vowel!")
-else:
-    print(" consonent!")    
+# character=input(" enter the character: ")
+# list1=['a','i','e','o','u','A','E','I','O','U']
+# if character in list1:
+#     print("vowel!")
+# else:
+#     print(" consonent!")    
+
+
+#program to check whether a character is digit or not
+# ch=input("enter the character: ")
+# list1=['0','1','2','3','4','5','6','7','8','9']
+# if ch in list1:
+#     print("charcater is digit ")
+# else:
+#     print("character is not digit")   
+
+
+#program to check whether a charcter is digit or not by using isdigit() method
+# ch= input("enter the character:")
+# if ch.isdigit():
+#     print("char is digit") 
+# else:
+#     print(" char is not digit")      
+
+
+
+
