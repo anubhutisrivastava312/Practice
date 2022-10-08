@@ -158,14 +158,22 @@
 
 
 #program to remove blank space from string
+# string=input(" enter the string: ")
+# result=''
+# for i in string:
+#     if i!=' ':
+#      result=result+i
+
+# print(" the new string: ",result)
+
+
+
+#program to remove repeated characters or duplicate characters from string
 string=input(" enter the string: ")
 result=''
 for i in string:
-    if i!=' ':
-     result=result+i
-
-print(" the new string: ",result)
-
-
+    if i not in result:
+        result=result+i
+print(" the new string is : ",result)        
 
 
