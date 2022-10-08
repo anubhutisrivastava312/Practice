@@ -135,3 +135,24 @@
 # print(" the maximum occuring character is: ",result)
 
 
+
+#program to count the number of alphabets,digits and special characters
+
+
+
+str=input(" enter a string: ")
+alphabets=0
+digits=0
+consonents=0
+spc_char=0
+for i in str:
+    if i.isalpha():
+        alphabets=alphabets+1
+    elif i.isdigit():
+        digits=digits+1    
+    else:
+        spc_char=spc_char+1
+
+print(" the number of alphabets is:",alphabets,", digits:",digits," , special characters is: ",spc_char)
+
+
