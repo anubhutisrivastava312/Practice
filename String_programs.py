@@ -140,19 +140,32 @@
 
 
 
-str=input(" enter a string: ")
-alphabets=0
-digits=0
-consonents=0
-spc_char=0
-for i in str:
-    if i.isalpha():
-        alphabets=alphabets+1
-    elif i.isdigit():
-        digits=digits+1    
-    else:
-        spc_char=spc_char+1
+# str=input(" enter a string: ")
+# alphabets=0
+# digits=0
+# consonents=0
+# spc_char=0
+# for i in str:
+#     if i.isalpha():
+#         alphabets=alphabets+1
+#     elif i.isdigit():
+#         digits=digits+1    
+#     else:
+#         spc_char=spc_char+1
 
-print(" the number of alphabets is:",alphabets,", digits:",digits," , special characters is: ",spc_char)
+# print(" the number of alphabets is:",alphabets,", digits:",digits," , special characters is: ",spc_char)
+
+
+
+#program to remove blank space from string
+string=input(" enter the string: ")
+result=''
+for i in string:
+    if i!=' ':
+     result=result+i
+
+print(" the new string: ",result)
+
+
 
 
