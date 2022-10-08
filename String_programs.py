@@ -126,6 +126,12 @@
 #     result=result+i 
 # print(" the new string: ",result)       
 
+#program to print the highest frequency character in string
+# from collections import Counter
 
+# str=input(" ener the string: ")
+# result=Counter(str)
+# result=max(result, key=result.get)
+# print(" the maximum occuring character is: ",result)
 
 
