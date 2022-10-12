@@ -169,11 +169,17 @@
 
 
 #program to remove repeated characters or duplicate characters from string
-string=input(" enter the string: ")
-result=''
-for i in string:
-    if i not in result:
-        result=result+i
-print(" the new string is : ",result)        
+# string=input(" enter the string: ")
+# result=''
+# for i in string:
+#     if i not in result:
+#         result=result+i
+# print(" the new string is : ",result)        
 
 
+#program to sort a string lexicographically or sort alphabetically the words given in a string.
+# str=input("enter a string: ")
+# words=[i.lower() for i in str.split()]
+# words.sort()
+# for i in words:
+#     print(i)
